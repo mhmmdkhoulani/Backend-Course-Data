@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "firstname": "Ahmad",
+    "lastname": "Ali",
+    "email": "ahmad@example.com",
+    "major": "Computer Science",
+    "work": "Software Engineer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": 2,
+    "firstname": "Fatima",
+    "lastname": "Hassan",
+    "email": "fatima@example.com",
+    "major": "Business Administration",
+    "work": "Marketing Manager",
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "id": 3,
+    "firstname": "Omar",
+    "lastname": "Khan",
+    "email": "omar@example.com",
+    "major": "Physical Education",
+    "work": "Personal Trainer",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": 4,
+    "firstname": "Layla",
+    "lastname": "Mustafa",
+    "email": "layla@example.com",
+    "major": "Art",
+    "work": "Artist",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 5,
+    "firstname": "Youssef",
+    "lastname": "Karim",
+    "email": "youssef@example.com",
+    "major": "English",
+    "work": "Writer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }
+]
