@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Post Title - CineBlog</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary-color: #1a1a2e;
+        --secondary-color: #16213e;
+        --accent-color: #e94560;
+        --text-color: #f1f1f1;
+        --background-color: #0f3460;
+      }
+      body {
+        font-family: "Lora", serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        margin: 0;
+        padding: 0;
+        background-color: var(--background-color);
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      header {
+        background-color: var(--primary-color);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+      }
+      .logo {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--accent-color);
+        text-decoration: none;
+      }
+      nav ul {
+        list-style-type: none;
+        display: flex;
+      }
+      nav ul li {
+        margin-left: 2rem;
+      }
+      nav a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+      nav a:hover {
+        color: var(--accent-color);
+      }
+      .container {
+        max-width: 1200px; /* Adjusted to match the About page */
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .content {
+        flex: 1;
+        padding-top: 100px;
+      }
+      .blog-title {
+        font-family: "Montserrat", sans-serif;
+        color: var(--accent-color);
+        margin-bottom: 1rem;
+      }
+      .blog-meta {
+        font-size: 0.9em;
+        color: #ccc;
+        margin-bottom: 2rem;
+      }
+      .blog-content {
+        font-size: 1.2rem;
+      }
+      .blog-content p {
+        margin-bottom: 1.5rem;
+      }
+      .blog-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+        border-radius: 8px;
+      }
+      footer {
+        background-color: var(--primary-color);
+        color: var(--text-color);
+        text-align: center;
+        padding: 2rem 0;
+        margin-top: auto; /* Ensures footer stays at the bottom */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <a href="index.html" class="logo">CineBlog</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="content container">
+      <h1 class="blog-title">Blog Post Title</h1>
+      <div class="blog-meta">
+        <span>By Henry Clark</span> • <span>July 20, 2024</span> •
+        <span>10 min read</span>
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Blog Image"
+        class="blog-image"
+      />
+      <div class="blog-content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod
+          malesuada. Nullam ac erat ante. Sed accumsan libero at eros varius,
+          nec volutpat quam suscipit. Sed nec risus nisi.
+        </p>
+        <p>
+          Vestibulum elementum quam quis eros faucibus, sit amet vehicula est
+          pellentesque. Nulla sit amet orci vitae ligula auctor tincidunt. Sed
+          luctus, risus in cursus pretium, urna erat facilisis eros, ut
+          scelerisque massa metus a nisi.
+        </p>
+        <p>
+          Aenean non augue sit amet urna consequat mollis. Curabitur bibendum
+          justo eget odio venenatis, at aliquam lorem fermentum. Proin accumsan
+          molestie nisi. Duis auctor justo non justo dignissim, ut tincidunt
+          tortor gravida.
+        </p>
+        <p>
+          Curabitur finibus, felis vitae interdum suscipit, leo massa facilisis
+          est, nec bibendum velit urna nec nisi. Quisque rutrum fermentum est,
+          vel viverra ante efficitur sit amet. Aenean in turpis at quam
+          efficitur bibendum.
+        </p>
+        <p>
+          Donec varius, libero id venenatis faucibus, tortor ex gravida arcu,
+          sit amet scelerisque leo ligula eget libero. Nulla facilisi. Proin
+          mollis hendrerit dui, a pharetra purus dignissim et.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 CineBlog. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
